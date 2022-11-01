@@ -51,6 +51,7 @@ module.exports = {
     port: 5000,
     open: true,
     hot: true,
+    allowedHosts: 'all',
   },
   mode: "development",
   devtool:"cheap-source-map"
